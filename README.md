@@ -385,8 +385,6 @@
 
 
 
-
-
 ## Cryptographic Issues / Bugs
 
 | Category | Writeup |
@@ -487,8 +485,6 @@
   
 
 
-
-
 ## Insecure Design 
 
 | Category | Writeup |
@@ -533,8 +529,6 @@
 | Shift-Left Abuse |<a href="https://hackerone.com/reports/170552">Slack integration setup lacks CSRF protection</a>
 | RCE |<a href="https://hackerone.com/reports/1065500">Multiple bugs leads to RCE on TikTok for Android</a>
 | SID |<a href="http://ysamm.com/?p=627">Leaking Facebook user information to external websites ($2000)</a>
-
-
 
 
 ## Security Misconfiguration
@@ -629,16 +623,6 @@
   
 
 
-
-
-
-
-
-
-
-
-
-
 ## Vulnerable and Outdated Components
 
 | Category | Writeup |
@@ -663,46 +647,20 @@
 | IAM |<a href="https://hackerone.com/reports/1552110">OAUTH2 bearer notchecked for connection reuse</a>
 | Bypass |<a href="https://vaibhavgaikwad1712.medium.com/2fa-bypass-using-response-manipulation-29d6c2583936">2fa Bypass Using Response Manipulation</a>
 | OTP Bypass |<a href="https://systemweakness.com/brute-forcing-otp-via-bypassing-rate-limit-c5ee6b25c2a8">OTP bruteforce via rate limit bypass</a>
-
-<a href="https://anugrahsr.github.io/posts/10Passwordresetflaws/">10 Password Reset Flaws</a>
-
-<a href="https://hackerone.com/reports/1245762">Account Takeover via SMS Authentication Flow</a>
-
-<a href="https://aravind07.medium.com/bypassingloginpagein2mins5b773d46f4d">Bypassing Login Page in 2 Mins</a>
-
-<a href="https://haxolot.com/posts/2021/moodle_pre_auth_shibboleth_rce_part1/">PreAuth RCE in Moodle Part I  PHP Object Injection in Shibboleth Module</a>
-
-<a href="https://haxolot.com/posts/2022/moodle_pre_auth_shibboleth_rce_part2/">PreAuth RCE in Moodle Part II  Session Hijack in Moodle's Shibboleth</a>
-
-<a href="https://newrouge.medium.com/webcachepoisoningataleofchainingunkeyedinputs6e3cb026bd23">Web Cache Poisoning: A Tale of chaining unkeyed inputs</a>
-
-<a href="https://medium.com/@sajan.dhakate/exploitingjsonwebtokenjwt73d172b5bc02">EXPLOITING JSON WEB TOKEN [JWT]</a>
-
-<a href="https://onekey.com/blog/securityadvisoryremotecommandexecutioninbinwalk/">Security Advisory: Remote Command Execution in binwalk</a>
-  
-<a href="https://gowthamarajrajendran.medium.com/oauth20hacking67e5d2b9b495">OAuth 2.0 Hacking</a>
-
-<a href="https://thehackernews.com/2022/01/researchersbypasssmsbasedmulti.html">Researchers Bypass SMSbased MultiFactor Authentication Protecting Box Accounts</a>
-
-<a href="https://4bdoz.medium.com/tricktobypassratelimitofpasswordresetfunctionalitya9923d3d7c4b">Trick to bypass rate limit of password reset functionality</a>
-  
-<a href="https://blog.dixitaditya.com/2021/11/19/accounttakeoverchain.html">Exploiting OAuth: Journey to Account Takeover </a>
-  
-<a href="https://medium.com/@fatnassifiras45/ataleof0clickaccounttakeoverand2fabypassb369cd70e42f">A tale of 0Click Account Takeover and 2FA Bypass</a>
-  
-<a href="https://youst.in/posts/cachepoisoningatscale/">Cache Poisoning at Scale</a>
-  
-<a href="https://blog.dixitaditya.com/2021/11/19/accounttakeoverchain.html">Exploiting OAuth: Journey to Account Takeover</a>
-  
-<a href="https://www.youtube.com/watch?v=Fzx7OWZId6U">Account Takeover using OAuth Misconfiguration | Badoo Bug Bounty $300</a>
-  
-
-  
-
-
-
-
-
+| Password Flaw |<a href="https://anugrahsr.github.io/posts/10-Password-reset-flaws/">10 Password Reset Flaws</a>
+| Chained |<a href="https://hackerone.com/reports/1245762">Account Takeover via SMS Authentication Flow</a>
+| Bypass |<a href="https://aravind07.medium.com/bypassing-login-page-in-2-mins-5b773d46f4d">Bypassing Login Page in 2 Mins</a>
+| RCE |<a href="https://haxolot.com/posts/2021/moodle_pre_auth_shibboleth_rce_part1/">PreAuth RCE in Moodle Part I  PHP Object Injection in Shibboleth Module</a>
+| RCE |<a href="https://haxolot.com/posts/2022/moodle_pre_auth_shibboleth_rce_part2/">PreAuth RCE in Moodle Part II  Session Hijack in Moodle's Shibboleth</a>
+| Web-Cache |<a href="https://infosecwriteups.com/web-cache-poisoning-a-tale-of-chaining-unkeyed-inputs-6e3cb026bd23">Web Cache Poisoning: A Tale of chaining unkeyed inputs</a>
+| JWT |<a href="https://medium.com/@sajan.dhakate/exploiting-json-web-token-jwt-73d172b5bc02">EXPLOITING JSON WEB TOKEN [JWT]</a>
+| RCE |<a href="https://www.onekey.com/resource/security-advisory-remote-command-execution-in-binwalk">Security Advisory: Remote Command Execution in binwalk</a>
+| OAuth |<a href="https://infosecwriteups.com/oauth-2-0-hacking-67e5d2b9b495">OAuth 2.0 Hacking</a>
+| Bypass |<a href="https://thehackernews.com/2022/01/researchers-bypass-sms-based-multi.html">Researchers Bypass SMSbased MultiFactor Authentication Protecting Box Accounts</a>
+| Rate Limit |<a href="https://4bdoz.medium.com/trick-to-bypass-rate-limit-of-password-reset-functionality-a9923d3d7c4b">Trick to bypass rate limit of password reset functionality</a>
+| Chained |<a href="https://blog.dixitaditya.com/oauth-account-takeover">Exploiting OAuth: Journey to Account Takeover </a>
+| Chained |<a href="https://infosecwriteups.com/a-tale-of-0-click-account-takeover-and-2fa-bypass-b369cd70e42f">A tale of 0Click Account Takeover and 2FA Bypass</a>
+| Cache Poisoning |<a href="https://youst.in/posts/cache-poisoning-at-scale/">Cache Poisoning at Scale</a>
 
 
 ## Software and Data Integrity Failure
@@ -734,7 +692,6 @@
 <a href="https://portswigger.net/dailyswig/vulnerabilityinawsappsyncallowedunauthorizedaccesstocloudresources">Vulnerability in AWS AppSync allowed unauthorized access to cloud resources</a>
 
 <a href="https://blog.lightspin.io/awsecrpublicvulnerability">AWS ECR Public Vulnerability</a>
-
   
 <a href="https://portswigger.net/dailyswig/melisplatformcmspatchedforcriticalrceflaw">Melis Platform CMS patched for critical RCE flaw</a>
 
